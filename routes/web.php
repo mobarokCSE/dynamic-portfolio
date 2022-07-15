@@ -66,5 +66,6 @@ Route::group(['middleware'=>'guest'],function(){
     Route::get('/contact', [ContactController::class, 'contact'])->name('/contact');
     Route::get('/page', [CommonController::class, 'page'])->name('/page');
     Route::get('/album', [CommonController::class, 'album'])->name('/album');
+    Route::get('/intro', [CommonController::class, 'intro'])->name('/intro');
     
 });

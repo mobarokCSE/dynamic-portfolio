@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 class CommonController extends Controller
 {
     //page
-    public function page(){
+    public function page()
+    {
         return view('pages.page');
     }
     //album
@@ -16,5 +17,9 @@ class CommonController extends Controller
     {
         return view('pages.album');
     }
-    
+
+    public function intro()
+    {
+        return view('pages.intro');
+    }
 }

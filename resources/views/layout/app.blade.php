@@ -49,7 +49,7 @@
 </head>
 
 <!-- ===========
-	///// Body /////
+	///// Body ///// 
 	================
 	* Add class "temp-uppercase" to enable uppercase letters (eg. headings, menu links).
 	* Add class "temp-letter-spacing" to enable spacing between letters (eg. headings, menu links).
@@ -124,7 +124,7 @@
 
 	<!-- Theme master JS -->
 	<script src="{{asset('frontend/js/theme.js')}}"></script>
-
+ 
 	<!-- <div class="style-switcher')}}">
 			<div class="sw-light"><i class="fas fa-sun"></i></div>
 			<div class="sw-dark"><i class="far fa-moon"></i></div>

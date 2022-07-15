@@ -47,7 +47,7 @@
 						<li class="has-children active">
 							<a href="#" class="sub-menu-trigger">Home</a>
 							<ul class="sub-menu">
-								<li><a href="intro-slideshow.html">Intro </a></li>
+								<li><a href="{{('/intro')}}">Intro </a></li>
 							</ul>
 						</li>
 						<li class="has-children">
