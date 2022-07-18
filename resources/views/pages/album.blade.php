@@ -12,7 +12,7 @@
         * Use class "fade-out-scroll-3" to enable fade out effect if page scroll.
         -->
         <div class="page-header-image parallax-3 bg-image"
-            style="background-image: url(assets/img/misc/page-header-bg-1.jpg); background-position: 50% 50%;">
+            style="background-image: url({{ asset('frontend/img/misc/page-header-bg-1.jpg') }}); background-position: 50% 50%;">
 
             <div class="cover bg-transparent-6-dark"></div>
 
@@ -71,7 +71,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-1.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-1.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -103,7 +103,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-2.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-2.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -135,7 +135,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-3.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-3.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -167,7 +167,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-4.jpg); background-position: 40% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-4.jpg') }}); background-position: 40% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -199,7 +199,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-5.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-5.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -231,7 +231,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-6.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-6.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -263,7 +263,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-7.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-7.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -295,7 +295,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-8.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-8.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -327,7 +327,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-9.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-9.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -359,7 +359,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-10.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-10.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -391,7 +391,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-11.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-11.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->
@@ -423,7 +423,7 @@
 
                                 <!-- Gallery list item image -->
                                 <div class="gl-item-image bg-image"
-                                    style="background-image: url(assets/img/gallery/gallery-list/gallery-list-12.jpg); background-position: 50% 50%">
+                                    style="background-image: url({{ asset('frontend/img/gallery/gallery-list/gallery-list-12.jpg') }}); background-position: 50% 50%">
                                 </div>
 
                                 <!-- Begin gallery list item info -->

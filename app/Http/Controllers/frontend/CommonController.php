@@ -12,14 +12,16 @@ class CommonController extends Controller
     {
         return view('pages.page');
     }
+    
     //album
     public function album()
     {
         return view('pages.album');
     }
-
-    public function intro()
+    
+    //gallery
+    public function gallery()
     {
-        return view('pages.intro');
+        return view('pages.gallery');
     }
 }

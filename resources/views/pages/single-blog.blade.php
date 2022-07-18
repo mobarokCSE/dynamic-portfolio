@@ -1,239 +1,6 @@
-<!DOCTYPE html>
+@extends('layout.app')
 
-<!--
-   Template:   FreeBird - Photography Portfolio HTML Website Template
-   Author:     Themetorium
-   URL:        http://themetorium.net  
--->
-
-<html lang="en" class="overflow-y-scroll">
-
-<head>
-
-	<!-- Title -->
-	<title>Blog - FreeBird - Photography Portfolio HTML Website Template</title>
-
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Responsive Photography HTML5 Website Template">
-	<meta name="author" content="themetorium.net">
-
-	<!-- Mobile Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Favicon (http://www.favicon-generator.org/) -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-
-	<!-- Paste your Google Analytics code here. 
-		Go to http://www.google.com/analytics/ for more information. -->
-
-	<!-- Google fonts (https://www.google.com/fonts) -->
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> <!-- Global font -->
-	<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet"> <!-- Alter font 1 -->
-	<link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet"> <!-- Alter font 2 -->
-
-	<!-- Bootstrap CSS (http://getbootstrap.com) -->
-	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-	<!-- bootstrap CSS (http://getbootstrap.com) -->
-
-	<!-- Libs and Plugins CSS -->
-	<link rel="stylesheet" href="assets/vendor/animsition/css/animsition.min.css">
-	<!-- Animsition CSS (http://git.blivesta.com/animsition/) -->
-	<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
-	<!-- Font Icons CSS (http://fortawesome.github.io/Font-Awesome) -->
-	<link rel="stylesheet" href="assets/vendor/lightgallery/css/lightgallery.min.css">
-	<!-- lightGallery CSS (http://sachinchoolur.github.io/lightGallery) -->
-	<link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.min.css">
-	<!-- Owl Carousel CSS (http://www.owlcarousel.owlgraphic.com) -->
-	<link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.theme.default.min.css">
-	<!-- Owl Carousel CSS (http://www.owlcarousel.owlgraphic.com) -->
-	<link rel="stylesheet" href="assets/vendor/ytplayer/css/jquery.mb.YTPlayer.min.css">
-	<!-- YTPlayer CSS (more info: https://github.com/pupunzi/jquery.mb.YTPlayer) -->
-	<link rel="stylesheet" href="assets/vendor/animate.min.css"> <!-- Animate libs CSS (http://daneden.me/animate) -->
-
-	<!-- Template master CSS -->
-	<link rel="stylesheet" href="assets/css/helper.css">
-	<link rel="stylesheet" href="assets/css/theme.css">
-
-	<!-- Template dark style CSS (uncomment to enable dark style)-->
-	<!-- <link rel="stylesheet" href="assets/css/dark-style.css"> -->
-
-</head>
-
-<!-- ===========
-	///// Body /////
-	================
-	* Add class "temp-uppercase" to enable uppercase letters (eg. headings, menu links).
-	* Add class "temp-letter-spacing" to enable spacing between letters (eg. headings, menu links).
-	* Use class "temp-grayscale" to enable grayscale effect when menu is open (no effect on all browsers!).
-	* Add class "animsition" to enable page transition while page loads.
-	-->
-
-<body class="temp-uppercase temp-grayscale animsition">
-
-
-	<!-- Page cover (if menu is open) -->
-	<span class="page-cover"></span>
-
-
-	<!-- ===================
-		///// Begin header /////
-		========================
-		* Add class "header-dark" to enable header dark style.
-		* Use class "header-click", "header-hover" or "header-fixed" to change behavior of the header (one of them is required!).
-		-->
-	<div id="header" class="header-hover">
-
-		<!-- Header close button -->
-		<div class="header-close" title="Close">×</div>
-
-		<!-- Begin logo small -->
-		<div class="logo-small">
-			<a href="index.html"><img src="assets/img/logo-small.png" title="Home" alt="logo"></a>
-		</div>
-		<!-- End logo small -->
-
-		<!-- Header menu icon -->
-		<span class="header-menu-icon" title="Open Menu"><i class="fas fa-bars"></i></span>
-
-		<!-- Header contact icon -->
-		<a href="" class="header-contact-icon" title="Contact Me"><i class="far fa-envelope"></i></a>
-
-
-		<!-- Begin header inner 
-			======================== -->
-		<div class="header-inner">
-
-			<!-- Begin header top -->
-			<div class="header-top">
-
-				<!-- Begin logo big -->
-				<div class="logo-big">
-					<a href="index.html"><img src="assets/img/logo-big.png" title="Home" alt="logo"></a>
-				</div>
-				<!-- End logo big -->
-
-			</div>
-			<!-- End header top -->
-
-			<!-- Begin header middle -->
-			<div class="header-middle">
-
-				<!-- Begin menu -->
-				<div id="menu">
-					<ul class="menu-list">
-						<li class="has-children active">
-							<a href="#" class="sub-menu-trigger">Home</a>
-							<ul class="sub-menu">
-								<li><a href="intro-slideshow.html">Intro </a></li>
-							</ul>
-						</li>
-						<li class="has-children">
-							<a href="#" class="sub-menu-trigger">About Me</a>
-							<ul class="sub-menu">
-								<li><a href="about-me.html">About Me</a></li>
-							</ul>
-						</li>
-						<li class="has-children">
-							<a href="#" class="sub-menu-trigger">Albums</a>
-							<ul class="sub-menu">
-								<li><a href="gallery-list-grid-no-filter.html">Without Filter</a></li>
-							</ul>
-						</li>
-						<li class="has-children">
-							<a href="#" class="sub-menu-trigger">Gallery</a>
-							<ul class="sub-menu">
-								<li><a href="gallery-single-top-info.html">Top Info</a></li>
-							</ul>
-						</li>
-						<li class="has-children">
-							<a href="#" class="sub-menu-trigger">Blog</a>
-							<ul class="sub-menu">
-								<li><a href="blog-list-classic.html">Classic</a></li>
-								<li><a href="blog-single.html">Single Post</a></li>
-							</ul>
-						</li>
-						<li class="has-children">
-							<a href="#" class="sub-menu-trigger">Contact</a>
-							<ul class="sub-menu">
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</li>
-						<li class="has-children">
-							<a href="#" class="sub-menu-trigger">Pages</a>
-							<ul class="sub-menu">
-								<li><a href="page-dummy-classic.html">Page Classic</a></li>
-							</ul>
-						</li>
-
-					</ul> <!-- /.menu-list -->
-				</div>
-				<!-- End menu -->
-
-			</div>
-			<!-- End header middle -->
-
-			<!-- Begin header bottom -->
-			<div class="header-bottom">
-
-				<!-- Begin follow me buttons -->
-				<div class="follow-me-buttons">
-					<ul>
-						<li><a href="https://www.facebook.com/themetorium" title="Follow me on Facebook"
-								target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="https://dribbble.com/Themetorium" title="Follow me on Dribbble" target="_blank"><i
-									class="fab fa-dribbble"></i></a></li>
-						<li><a href="" title="Follow me on Behance" target="_blank"><i class="fab fa-behance"></i></a>
-						</li>
-						<li><a href="mailto:info@your-email.com" title="Email Me" target="_blank"><i
-									class="far fa-envelope"></i></a></li>
-					</ul>
-				</div>
-				<!-- End follow me buttons -->
-
-				<!-- Begin copyright -->
-				<div class="copyright">
-					Copyright © 2016 <br>
-					<a target="_blank" href="https://themetorium.net">Themetorium</a>
-				</div>
-				<!-- End copyright -->
-
-			</div>
-			<!-- End header bottom -->
-
-		</div>
-		<!-- End header inner -->
-
-	</div>
-	<!-- End header -->
-
-
-	<!-- ==========================
-		///// Begin mobile header /////
-		===============================
-		* Add class "m-header-dark" to enable header dark style.
-		-->
-	<div id="mobile-header">
-
-		<!-- Begin logo small -->
-		<div class="logo-mobile">
-			<a href="index.html"><img src="assets/img/logo-small.png" alt="logo"></a>
-		</div>
-		<!-- End logo small -->
-
-		<!-- Mobile menu trigger -->
-		<div class="mobile-menu-trigger"><span></span></div>
-
-	</div>
-	<!-- End mobile header -->
-
-
-	<!-- *************************************
-		*********** Begin body content *********** 
-		************************************** -->
-	<div id="body-content">
+@section('content')
 
 		<!-- ====================================
 			/////// Begin blog single cection ///////
@@ -255,7 +22,7 @@
 
 								<!-- Blog single image -->
 								<div class="blog-single-image bg-image"
-									style="background-image: url(assets/img/blog/list/blog-1.jpg);"></div>
+									style="background-image: url({{ asset('frontend/img/blog/list/blog-1.jpg') }});"></div>
 
 								<!-- Begin blog single heading -->
 								<div class="blog-single-post-heading">
@@ -278,7 +45,7 @@
 
 													<!-- Blog single author avatar -->
 													<a href="" class="author-avatar pull-left bg-image"
-														style="background-image: url(assets/img/blog/small/avatar/avatar-1.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-1.jpg') }});"></a>
 
 													<div class="blog-single-meta">
 														<div class="article-author">by: <a href="#">Martin Vegas</a>
@@ -352,7 +119,7 @@
 											<a href="assets/img/blog/single/img-4.jpg" class="lg-trigger"
 												data-exthumbnail="assets/img/blog/single/img-4.jpg"
 												data-sub-html="<h4>Image Description</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>">
-												<img src="assets/img/blog/single/img-4.jpg" alt="image">
+												<img src="{{ asset('frontend/img/blog/single/img-4.jpg') }}" alt="image">
 											</a>
 											<figcaption class="single-post-image-caption">
 												Photo by <a target="_blank" href="http://unsplash.com/">Unsplash</a>
@@ -420,7 +187,7 @@
 												========================= -->
 											<a href="assets/img/blog/single/big/img-1.jpg"
 												class="cc-item bg-image lg-trigger"
-												style="background-image: url(assets/img/blog/single/img-1.jpg); background-position: 50% 50%;"
+												style="background-image: url({{ asset('frontend/img/blog/single/img-1.jpg') }}); background-position: 50% 50%;"
 												data-exthumbnail="assets/img/blog/single/img-1.jpg"></a>
 											<!-- End carousel item -->
 
@@ -428,7 +195,7 @@
 												========================= -->
 											<a href="assets/img/blog/single/big/img-2.jpg"
 												class="cc-item bg-image lg-trigger"
-												style="background-image: url(assets/img/blog/single/img-2.jpg); background-position: 50% 50%;"
+												style="background-image: url({{ asset('frontend/img/blog/single/img-2.jpg') }}); background-position: 50% 50%;"
 												data-exthumbnail="assets/img/blog/single/img-2.jpg"></a>
 											<!-- End carousel item -->
 
@@ -436,7 +203,7 @@
 												========================= -->
 											<a href="assets/img/blog/single/big/img-3.jpg"
 												class="cc-item bg-image lg-trigger"
-												style="background-image: url(assets/img/blog/single/img-3.jpg); background-position: 50% 50%;"
+												style="background-image: url({{ asset('frontend/img/blog/single/img-3.jpg') }}); background-position: 50% 50%;"
 												data-exthumbnail="assets/img/blog/single/img-3.jpg"></a>
 											<!-- End carousel item -->
 
@@ -628,7 +395,7 @@
 									<!-- Begin related posts item -->
 									<div class="related-posts-item">
 										<a href="" class="rp-item-image bg-image"
-											style="background-image: url(assets/img/blog/list/blog-4.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/list/blog-4.jpg') }});"></a>
 										<div class="rp-item-info">
 											<div class="rp-item-category"><a href="#">Photography</a></div>
 											<a href="" class="rp-item-title">
@@ -642,7 +409,7 @@
 									<!-- Begin related posts item -->
 									<div class="related-posts-item">
 										<a href="" class="rp-item-image bg-image"
-											style="background-image: url(assets/img/blog/list/blog-5.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/list/blog-5.jpg') }});"></a>
 										<div class="rp-item-info">
 											<div class="rp-item-category"><a href="#">Photography</a></div>
 											<a href="" class="rp-item-title">
@@ -656,7 +423,7 @@
 									<!-- Begin related posts item -->
 									<div class="related-posts-item">
 										<a href="" class="rp-item-image bg-image"
-											style="background-image: url(assets/img/blog/list/blog-6.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/list/blog-6.jpg') }});"></a>
 										<div class="rp-item-info">
 											<div class="rp-item-category"><a href="#">Food</a></div>
 											<a href="" class="rp-item-title">
@@ -669,7 +436,7 @@
 									<!-- Begin related posts item -->
 									<div class="related-posts-item">
 										<a href="" class="rp-item-image bg-image"
-											style="background-image: url(assets/img/blog/list/blog-2.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/list/blog-2.jpg') }});"></a>
 										<div class="rp-item-info">
 											<div class="rp-item-category"><a href="#">Equipment</a></div>
 											<a href="" class="rp-item-title">
@@ -682,7 +449,7 @@
 									<!-- Begin related posts item -->
 									<div class="related-posts-item">
 										<a href="" class="rp-item-image bg-image"
-											style="background-image: url(assets/img/blog/list/blog-3.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/list/blog-3.jpg') }});"></a>
 										<div class="rp-item-info">
 											<div class="rp-item-category"><a href="#">Travel</a></div>
 											<a href="" class="rp-item-title">
@@ -711,7 +478,7 @@
 									<!-- Begin media -->
 									<li class="media">
 										<a href="#" class="media-object pull-left bg-image"
-											style="background-image: url(assets/img/blog/small/avatar/avatar-1.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-1.jpg') }});"></a>
 
 										<div class="media-body">
 											<h4 class="media-heading"><a href="#">Martin Vegas</a></h4>
@@ -729,7 +496,7 @@
 									<!-- Begin media -->
 									<li class="media">
 										<a href="#" class="media-object pull-left bg-image"
-											style="background-image: url(assets/img/blog/small/avatar/avatar-2.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-2.jpg') }});"></a>
 
 										<div class="media-body">
 											<h4 class="media-heading"><a href="#">Katie Ryan</a></h4>
@@ -746,7 +513,7 @@
 									<!-- Begin media -->
 									<li class="media">
 										<a href="#" class="media-object pull-left bg-image"
-											style="background-image: url(assets/img/blog/small/avatar/avatar-3.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-3.jpg') }});"></a>
 
 										<div class="media-body">
 											<h4 class="media-heading"><a href="#">Ashton Brown</a></h4>
@@ -759,7 +526,7 @@
 											<!-- Begin nested media -->
 											<div class="media">
 												<a href="#" class="media-object pull-left bg-image"
-													style="background-image: url(assets/img/blog/small/avatar/avatar-4.jpg);"></a>
+													style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-4.jpg') }});"></a>
 
 												<div class="media-body">
 													<h4 class="media-heading"><a href="#">Johnny Stevens</a></h4>
@@ -774,7 +541,7 @@
 													<!-- Begin nested media -->
 													<div class="media">
 														<a href="#" class="media-object pull-left bg-image"
-															style="background-image: url(assets/img/blog/small/avatar/avatar-5.jpg);"></a>
+															style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-5.jpg') }});"></a>
 
 														<div class="media-body">
 															<h4 class="media-heading"><a href="#">Leslie Andrews</a>
@@ -803,7 +570,7 @@
 											<!-- Begin nested media -->
 											<div class="media">
 												<a href="#" class="media-object pull-left bg-image"
-													style="background-image: url(assets/img/blog/small/avatar/avatar-3.jpg);"></a>
+													style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-3.jpg') }});"></a>
 
 												<div class="media-body">
 													<h4 class="media-heading"><a href="#">Ashton Brown</a></h4>
@@ -829,7 +596,7 @@
 									<!-- Begin media -->
 									<li class="media">
 										<a href="#" class="media-object pull-left bg-image"
-											style="background-image: url(assets/img/blog/small/avatar/avatar-7.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-7.jpg') }});"></a>
 
 										<div class="media-body">
 											<h4 class="media-heading"><a href="#">Kate Dixon</a></h4>
@@ -847,7 +614,7 @@
 									<!-- Begin media -->
 									<li class="media">
 										<a href="#" class="media-object pull-left bg-image"
-											style="background-image: url(assets/img/blog/small/avatar/avatar-8.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-8.jpg') }});"></a>
 
 										<div class="media-body">
 											<h4 class="media-heading"><a href="#">David Bradley</a></h4>
@@ -864,7 +631,7 @@
 									<!-- Begin media -->
 									<li class="media">
 										<a href="#" class="media-object pull-left bg-image"
-											style="background-image: url(assets/img/blog/small/avatar/avatar-9.jpg);"></a>
+											style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-9.jpg') }});"></a>
 
 										<div class="media-body">
 											<h4 class="media-heading"><a href="#">Brayan Peterson</a></h4>
@@ -940,7 +707,7 @@
 										<div class="sidebar-widget blog-author no-margin-top">
 											<h3 class="sidebar-heading">About Me</h3>
 											<div class="blog-author-img"> <img
-													src="assets/img/blog/small/avatar/avatar-1.jpg" alt="image"></div>
+													src="{{ asset('frontend/img/blog/small/avatar/avatar-1.jpg') }}" alt="image"></div>
 											<div class="blog-author-info">
 												<h4 class="blog-author-name">Martin Vegas</h4>
 												<div class="blog-author-sub">Artist &amp; Photographer</div>
@@ -998,7 +765,7 @@
 											<ul class="list-unstyled">
 												<li>
 													<a href="" class="post-thumb bg-image"
-														style="background-image: url(assets/img/blog/small/img-13.jpg); background-position: 50% 50%;"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-13.jpg') }}); background-position: 50% 50%;"></a>
 													<div class="post-data">
 														<h5 class="post-title"><a href="blog-single.html">10 Top Choices
 																for Aerial Photography</a></h5>
@@ -1008,7 +775,7 @@
 												</li>
 												<li>
 													<a href="" class="post-thumb bg-image"
-														style="background-image: url(assets/img/blog/small/img-14.jpg); background-position: 50% 50%;"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-14.jpg') }}); background-position: 50% 50%;"></a>
 													<div class="post-data">
 														<h5 class="post-title"><a href="blog-single.html">How to Take
 																Professional Travel Photos</a></h5>
@@ -1018,7 +785,7 @@
 												</li>
 												<li>
 													<a href="" class="post-thumb bg-image"
-														style="background-image: url(assets/img/blog/small/img-15.jpg); background-position: 50% 50%;"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-15.jpg') }}); background-position: 50% 50%;"></a>
 													<div class="post-data">
 														<h5 class="post-title"><a href="blog-single.html">5 Tips Your
 																Camera Manual Never Told You About Portrait
@@ -1029,7 +796,7 @@
 												</li>
 												<li>
 													<a href="" class="post-thumb bg-image"
-														style="background-image: url(assets/img/blog/small/img-10.jpg); background-position: 50% 50%;"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-10.jpg') }}); background-position: 50% 50%;"></a>
 													<div class="post-data">
 														<h5 class="post-title"><a href="blog-single.html">Most Common
 																Wedding Photography Mistakes Every Beginner Will
@@ -1053,7 +820,7 @@
 												<li class="sidebar-comment-wrap">
 													<a href="blog-single-no-sidebar.html"
 														class="sidebar-comment-avatar bg-image"
-														style="background-image: url(assets/img/blog/small/avatar/avatar-1.jpg); background-position: 50% 50%;"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-1.jpg') }}); background-position: 50% 50%;"></a>
 													<div class="sidebar-comment-meta">
 														<div class="sidebar-comment-data">
 															<span class="author">By: <a href="">Martin Vegas</a></span>
@@ -1072,7 +839,7 @@
 												<li class="sidebar-comment-wrap">
 													<a href="blog-single-no-sidebar.html"
 														class="sidebar-comment-avatar bg-image"
-														style="background-image: url(assets/img/blog/small/avatar/avatar-3.jpg); background-position: 50% 50%;"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-3.jpg') }}); background-position: 50% 50%;"></a>
 													<div class="sidebar-comment-meta">
 														<div class="sidebar-comment-data">
 															<span class="author">By: <a href="">David Bradley</a></span>
@@ -1090,7 +857,7 @@
 												<li class="sidebar-comment-wrap">
 													<a href="blog-single-no-sidebar.html"
 														class="sidebar-comment-avatar bg-image"
-														style="background-image: url(assets/img/blog/small/avatar/avatar-2.jpg); background-position: 50% 50%;"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/avatar/avatar-2.jpg') }}); background-position: 50% 50%;"></a>
 													<div class="sidebar-comment-meta">
 														<div class="sidebar-comment-data">
 															<span class="author">By: <a href="">Kate Dixon</a></span>
@@ -1149,40 +916,40 @@
 												-->
 											<ul class="thumb-list col-4 gutter-2">
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-1.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-1.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-2.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-2.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-3.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-3.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-4.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-4.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-5.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-5.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-6.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-6.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-7.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-7.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-8.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-8.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-9.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-9.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-10.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-10.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-11.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-11.jpg') }});"></a>
 												</li>
 												<li><a href="#" class="thumb-list-item bg-image"
-														style="background-image: url(assets/img/blog/small/img-12.jpg);"></a>
+														style="background-image: url({{ asset('frontend/img/blog/small/img-12.jpg') }});"></a>
 												</li>
 
 											</ul>
@@ -1246,52 +1013,5 @@
 		</section>
 		<!-- End blog single cection -->
 
-	</div>
-	<!-- End body content -->
 
-
-	<!-- Scroll to top button -->
-	<a href="#body-content" class="scrolltotop sm-scroll" title="Scroll to top"><i class="fas fa-chevron-up"></i></a>
-
-
-
-
-
-	<!-- ====================
-		///// Scripts below /////
-		===================== -->
-
-	<!-- Core JS -->
-	<script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
-	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script> <!-- bootstrap JS (http://getbootstrap.com) -->
-
-	<!-- Libs and Plugins JS -->
-	<script src="assets/vendor/animsition/js/animsition.min.js"></script>
-	<!-- Animsition JS (http://git.blivesta.com/animsition/) -->
-	<script src="assets/vendor/jquery.easing.min.js"></script>
-	<!-- Easing JS (http://gsgd.co.uk/sandbox/jquery/easing/) -->
-	<script src="assets/vendor/isotope.pkgd.min.js"></script> <!-- Isotope JS (http://isotope.metafizzy.co) -->
-	<script src="assets/vendor/imagesloaded.pkgd.min.js"></script>
-	<!-- ImagesLoaded JS (https://github.com/desandro/imagesloaded) -->
-	<script src="assets/vendor/jquery.nicescroll.min.js"></script>
-	<!-- Nicescroll JS (http://areaaperta.com/nicescroll/) -->
-	<script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
-	<!-- Owl Carousel JS (http://www.owlcarousel.owlgraphic.com) -->
-	<script src="assets/vendor/jquery.mousewheel.min.js"></script>
-	<!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
-	<script src="assets/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js"></script>
-	<!-- YTPlayer JS (more info: https://github.com/pupunzi/jquery.mb.YTPlayer) -->
-
-	<script src="assets/vendor/lightgallery/js/lightgallery.min.js"></script>
-	<!-- lightGallery JS (http://sachinchoolur.github.io/lightGallery) -->
-	<script src="assets/vendor/lightgallery/js/lightgallery-plugins.js"></script>
-	<!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
-
-	<!-- Theme master JS -->
-	<script src="assets/js/theme.js"></script>
-
-
-
-</body>
-
-</html>
+@endsection

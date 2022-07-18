@@ -45,40 +45,40 @@
 				<div id="menu">
 					<ul class="menu-list">
 						<li class="has-children active">
-							<a href="#" class="sub-menu-trigger">Home</a>
-							<ul class="sub-menu">
+							<a href="{{('/')}}" class="sub-menu-trigger">Home</a>
+							{{-- <ul class="sub-menu">
 								<li><a href="{{('/intro')}}">Intro </a></li>
-							</ul>
+							</ul> --}}
 						</li>
 						<li class="has-children">
 							<a href="#" class="sub-menu-trigger">About</a>
 							<ul class="sub-menu">
-								<li><a href="{{('/about')}}">About Me</a></li>
+								<li><a href="{{('about')}}">About Me</a></li>
 							</ul>
 						</li>
 						<li class="has-children">
 							<a href="#" class="sub-menu-trigger">Albums</a>
 							<ul class="sub-menu">
-								<li><a href="{{('/album')}}">My Album</a></li>
+								<li><a href="{{('album')}}">My Album</a></li>
 							</ul>
 						</li>
 						<li class="has-children">
 							<a href="#" class="sub-menu-trigger">Gallery</a>
 							<ul class="sub-menu">
-								<li><a href="gallery-single-top-info.html">Top Info</a></li>
+								<li><a href="{{('gallery')}}">Top Info</a></li>
 							</ul>
 						</li>
 						<li class="has-children">
 							<a href="#" class="sub-menu-trigger">Blog</a>
 							<ul class="sub-menu">
-								<li><a href="blog-list-classic.html">Classic</a></li>
-								<li><a href="blog-single.html">Single Post</a></li>
+								<li><a href="{{('blog')}}">Classic</a></li>
+								<li><a href="{{('single-blog')}}">Single Post</a></li>
 							</ul>
 						</li>
 						<li class="has-children">
 							<a href="#" class="sub-menu-trigger">Contact</a>
 							<ul class="sub-menu">
-								<li><a href="{{('/contact')}}">Contact Me</a></li>
+								<li><a href="{{('contact')}}">Contact Me</a></li>
 							</ul>
 						</li>
 						<li class="has-children">

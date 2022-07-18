@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('content')
+@section('content') 
     <!-- ========================================
            ///// Begin split box section (contact) /////
            ========================================= -->

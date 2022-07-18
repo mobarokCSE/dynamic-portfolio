@@ -10,6 +10,7 @@ use App\Http\Controllers\frontend\HomeController;
 use App\Http\Controllers\frontend\AboutController;
 use App\Http\Controllers\frontend\ContactController;
 use App\Http\Controllers\frontend\CommonController;
+use App\Http\Controllers\frontend\BlogController;
 
 
 /*
@@ -62,10 +63,12 @@ Route::group(['middleware'=>'guest'],function(){
 
     //frontend
     Route::get('/', [HomeController::class, 'home'])->name('/');
-    Route::get('/about', [AboutController::class, 'about'])->name('/about');
-    Route::get('/contact', [ContactController::class, 'contact'])->name('/contact');
-    Route::get('/page', [CommonController::class, 'page'])->name('/page');
-    Route::get('/album', [CommonController::class, 'album'])->name('/album');
-    Route::get('/intro', [CommonController::class, 'intro'])->name('/intro');
+    Route::get('/about', [AboutController::class, 'about'])->name('about');
+    Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
+    Route::get('/page', [CommonController::class, 'page'])->name('page');
+    Route::get('/album', [CommonController::class, 'album'])->name('album');
+    Route::get('/gallery', [CommonController::class, 'gallery'])->name('gallery');
+    Route::get('/blog', [BlogController::class, 'blogs'])->name('blog');
+    Route::get('/single-blog', [BlogController::class, 'blog'])->name('single.blog');
     
 });
