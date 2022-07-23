@@ -64,6 +64,8 @@ Route::group(['middleware'=>'guest'],function(){
     //frontend
     Route::get('/', [HomeController::class, 'home'])->name('/');
     Route::get('/about', [AboutController::class, 'about'])->name('about');
+    Route::get('/services', [CommonController::class, 'services'])->name('services');
+    Route::get('/portfolio', [CommonController::class, 'portfolio'])->name('portfolio');
     Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
     Route::get('/page', [CommonController::class, 'page'])->name('page');
     Route::get('/album', [CommonController::class, 'album'])->name('album');

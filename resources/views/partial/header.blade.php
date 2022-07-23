@@ -44,16 +44,28 @@
 				<!-- Begin menu -->
 				<div id="menu">
 					<ul class="menu-list">
-						<li class="has-children active">
-							<a href="{{('/')}}" class="sub-menu-trigger">Home</a>
-							{{-- <ul class="sub-menu">
-								<li><a href="{{('/intro')}}">Intro </a></li>
-							</ul> --}}
-						</li>
 						<li class="has-children">
 							<a href="#" class="sub-menu-trigger">About</a>
 							<ul class="sub-menu">
 								<li><a href="{{('about')}}">About Me</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#" class="sub-menu-trigger">Resume</a>
+							<ul class="sub-menu">
+								<li><a href="{{('album')}}">Resume</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#" class="sub-menu-trigger">Services</a>
+							<ul class="sub-menu">
+								<li><a href="{{('services')}}">My Services</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#" class="sub-menu-trigger">Portfolio</a>
+							<ul class="sub-menu">
+								<li><a href="{{('portfolio')}}">Portfolio</a></li>
 							</ul>
 						</li>
 						<li class="has-children">
